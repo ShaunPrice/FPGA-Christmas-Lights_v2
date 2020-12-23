@@ -1,0 +1,108 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+source {C:\Users\shaun\OneDrive\Documents\alchitry\FPGA-Christmas-Lights_v2\work\project.tcl}
+# set projDir "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead"
+# set projName "FPGA-Christmas-Lights_v2"
+# set topName top
+# set device xc6slx9-2tqg144
+# if {[file exists "$projDir/$projName"]} { file delete -force "$projDir/$projName" }
+# create_project $projName "$projDir/$projName" -part $device
+# set_property design_mode RTL [get_filesets sources_1]
+# set verilogSources [list "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/verilog/mojo_top_0.v" "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/verilog/ws2811_1.v" "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/verilog/spi_peripheral_2.v" ]
+# import_files -fileset [get_filesets sources_1] -force -norecurse $verilogSources
+# set ucfSources [list "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/constraint/user.ucf" "C:/Program\ Files/Alchitry/Alchitry\ Labs/library/components/mojo.ucf" ]
+# import_files -fileset [get_filesets constrs_1] -force -norecurse $ucfSources
+# set_property -name {steps.bitgen.args.More Options} -value {-g Binary:Yes -g Compress} -objects [get_runs impl_1]
+# set_property steps.map.args.mt on [get_runs impl_1]
+# set_property steps.map.args.pr b [get_runs impl_1]
+# set_property steps.par.args.mt on [get_runs impl_1]
+# update_compile_order -fileset sources_1
+# launch_runs -runs synth_1
+[Wed Dec 23 21:28:28 2020] Launched synth_1...
+Run output will be captured here: C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.runs/synth_1/runme.log
+# wait_on_run synth_1
+[Wed Dec 23 21:28:28 2020] Waiting for synth_1 to finish...
+
+*** Running xst
+    with args -ifn "mojo_top_0.xst" -ofn "mojo_top_0.srp" -intstyle ise
+
+Reading design: mojo_top_0.prj
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/ws2811_1.v" into library work
+Parsing module <ws2811_1>.
+Analyzing Verilog file "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/spi_peripheral_2.v" into library work
+Parsing module <spi_peripheral_2>.
+Analyzing Verilog file "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" into library work
+Parsing module <mojo_top_0>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Port new_address is not connected to this instance
+
+Elaborating module <mojo_top_0>.
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+
+Elaborating module <ws2811_1(SYSTEM_CLOCK=50000000)>.
+WARNING:HDLCompiler:413 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/ws2811_1.v" Line 68: Result of 64-bit expression is truncated to fit in 32-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/ws2811_1.v" Line 69: Result of 64-bit expression is truncated to fit in 32-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/ws2811_1.v" Line 131: Result of 14-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/ws2811_1.v" Line 142: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/ws2811_1.v" Line 170: Result of 7-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:1127 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/ws2811_1.v" Line 108: Assignment to green ignored, since the identifier is never used
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+ERROR:HDLCompiler:597 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module ws2811_1 does not have a parameter named NUM_LEDS
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+
+Elaborating module <spi_peripheral_2>.
+WARNING:HDLCompiler:634 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 79: Net <sender_busy> does not have a driver.
+WARNING:HDLCompiler:634 - "C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 81: Net <sender_data_in[7]> does not have a driver.
+--> 
+
+Total memory usage is 4451028 kilobytes
+
+Number of errors   :   16 (   0 filtered)
+Number of warnings :    9 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+
+Bin file (C:\Users\shaun\OneDrive\Documents\alchitry\FPGA-Christmas-Lights_v2\work\planAhead\FPGA-Christmas-Lights_v2\FPGA-Christmas-Lights_v2.runs\impl_1\mojo_top_0.bin) could not be found! The build probably failed.

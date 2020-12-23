@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Port <arg fmt="%s" index="1">new_address</arg> is not connected to this instance
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/ws2811_1.v" Line 68: Result of <arg fmt="%d" index="1">64</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">32</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/ws2811_1.v" Line 69: Result of <arg fmt="%d" index="1">64</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">32</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/ws2811_1.v" Line 131: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">13</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/ws2811_1.v" Line 142: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/ws2811_1.v" Line 170: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/ws2811_1.v" Line 108: Assignment to <arg fmt="%s" index="1">green</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 129: Module <arg fmt="%s" index="1">ws2811_1</arg> does not have a parameter named <arg fmt="%s" index="2">NUM_LEDS</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 79: Net &lt;<arg fmt="%s" index="1">sender_busy</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:/Users/shaun/OneDrive/Documents/alchitry/FPGA-Christmas-Lights_v2/work/planAhead/FPGA-Christmas-Lights_v2/FPGA-Christmas-Lights_v2.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 81: Net &lt;<arg fmt="%s" index="1">sender_data_in[7]</arg>&gt; does not have a driver.
+</msg>
+
+</messages>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="FPGA-Christmas-Lights_v2" board="Mojo" language="Verilog" version="3">
+  <files>
+    <src>util.v</src>
+    <src>ws2811.v</src>
+    <component>spi_peripheral.luc</component>
+    <src top="true">mojo_top.v</src>
+    <constraint>user.ucf</constraint>
+    <constraint lib="true">mojo.ucf</constraint>
+  </files>
+</project>

@@ -1,0 +1,29 @@
+NET "lights<0>"      LOC = P51;
+NET "lights<1>"      LOC = P50;
+NET "lights<2>"      LOC = P41;
+NET "lights<3>"      LOC = P40;
+NET "lights<4>"      LOC = P35;
+NET "lights<5>"      LOC = P34;
+NET "lights<6>"      LOC = P33;
+NET "lights<7>"      LOC = P32;
+NET "lights<8>"      LOC = P30;
+NET "lights<9>"      LOC = P29;
+NET "lights<10>"     LOC = P27;
+NET "lights<11>"     LOC = P26;
+NET "lights<12>"     LOC = P24;
+NET "lights<13>"     LOC = P23;
+NET "lights<14>"     LOC = P22;
+NET "lights<15>"     LOC = P21;
+
+NET "sender_hs"      LOC = P95 | IOSTANDARD = LVTTL;	
+NET "sender_cs"      LOC = P93 | IOSTANDARD = LVTTL;	
+NET "sender_mosi"    LOC = P88 | IOSTANDARD = LVTTL;	
+NET "sender_miso"    LOC = P85 | IOSTANDARD = LVTTL;	
+NET "sender_sck"     LOC = P83 | IOSTANDARD = LVTTL;	
+
+NET "test<0>"        LOC = P100 | IOSTANDARD = LVTTL;
+NET "test<1>"        LOC = P102 | IOSTANDARD = LVTTL;
+NET "test<2>"        LOC = P105 | IOSTANDARD = LVTTL;
+NET "test<3>"        LOC = P112 | IOSTANDARD = LVTTL;
+NET "test<4>"        LOC = P115 | IOSTANDARD = LVTTL;
+NET "test<5>"        LOC = P117 | IOSTANDARD = LVTTL;
