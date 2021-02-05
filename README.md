@@ -1,4 +1,14 @@
 # FPGA-Christmas-Lights_v2
+
+Note: This project is based on a retired product https://alchitry.com/products/mojo-v3 the Mojo FPGA. This development board may be available from third parties or the code could be modified for other FPGA's.
+
+The project displays up to 24 ws2812b/ws2811 pixels universes with 512 pixels per universe or 12,288 pixels.
+
+The example code for streaming the pixel code into the FPGA from an ESP32 or Teensy 3.5 reading the Xlights fseq file over SPI is in the following repository:
+
+[SD_Reader](https://www.github.com/ShaunPrice/SD_Reader/)
+
+## Format for a Universe
 Streams to multiple ws2811 pixel strings from a stream of pixel data in the dollowing format:<pre><code>
  byte[0] Universe (0 o 23)
  byte[1] Pixels (0 o 511)
@@ -11,12 +21,7 @@ Streams to multiple ws2811 pixel strings from a stream of pixel data in the doll
  byte[1541 to 1543] Pixel 512 RGB
 </code></pre>
 
-The current configuration streams 24 universes or 512 pixels.
-
-The example code for streaming the pixel code into the FPGA from an ESP32 or Teensy 3.5 reading the Xlights fseq file over SPI is in the following repository:
-
-[SD_Reader](https://www.github.com/ShaunPrice/SD_Reader/)
-
+## Pinout
 The pinout for the Mojo V3 FPGA is as follows:<pre><code>
 Universe 1 = 35
 Universe 2 = 34
