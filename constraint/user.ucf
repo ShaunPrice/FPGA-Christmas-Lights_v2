@@ -1,29 +1,35 @@
-NET "lights<0>"      LOC = P51;
-NET "lights<1>"      LOC = P50;
-NET "lights<2>"      LOC = P41;
-NET "lights<3>"      LOC = P40;
-NET "lights<4>"      LOC = P35;
-NET "lights<5>"      LOC = P34;
-NET "lights<6>"      LOC = P33;
-NET "lights<7>"      LOC = P32;
-NET "lights<8>"      LOC = P30;
-NET "lights<9>"      LOC = P29;
-NET "lights<10>"     LOC = P27;
-NET "lights<11>"     LOC = P26;
-NET "lights<12>"     LOC = P24;
-NET "lights<13>"     LOC = P23;
-NET "lights<14>"     LOC = P22;
-NET "lights<15>"     LOC = P21;
 
-NET "sender_hs"      LOC = P95 | IOSTANDARD = LVTTL;	
-NET "sender_cs"      LOC = P93 | IOSTANDARD = LVTTL;	
-NET "sender_mosi"    LOC = P88 | IOSTANDARD = LVTTL;	
-NET "sender_miso"    LOC = P85 | IOSTANDARD = LVTTL;	
-NET "sender_sck"     LOC = P83 | IOSTANDARD = LVTTL;	
+NET "lights<0>"      LOC = P35;
+NET "lights<1>"      LOC = P34;
+NET "lights<2>"      LOC = P33;
+NET "lights<3>"      LOC = P32;
+NET "lights<4>"      LOC = P30;
+NET "lights<5>"      LOC = P29;
+NET "lights<6>"      LOC = P27;
+NET "lights<7>"      LOC = P26;
+NET "lights<8>"      LOC = P24;
+NET "lights<9>"      LOC = P23;
+NET "lights<10>"     LOC = P22;
+NET "lights<11>"     LOC = P21;
+NET "lights<12>"     LOC = P17;
+NET "lights<13>"     LOC = P16;
+NET "lights<14>"     LOC = P15;
+NET "lights<15>"     LOC = P14;
 
-NET "test<0>"        LOC = P100 | IOSTANDARD = LVTTL;
-NET "test<1>"        LOC = P102 | IOSTANDARD = LVTTL;
-NET "test<2>"        LOC = P105 | IOSTANDARD = LVTTL;
-NET "test<3>"        LOC = P112 | IOSTANDARD = LVTTL;
-NET "test<4>"        LOC = P115 | IOSTANDARD = LVTTL;
-NET "test<5>"        LOC = P117 | IOSTANDARD = LVTTL;
+NET "lights<16>"     LOC = P93;
+NET "lights<17>"     LOC = P92;
+NET "lights<18>"     LOC = P88;
+NET "lights<19>"     LOC = P87;
+NET "lights<20>"     LOC = P85;
+NET "lights<21>"     LOC = P84;
+NET "lights<22>"     LOC = P83;
+NET "lights<23>"     LOC = P82;
+
+NET "sender_hs"      LOC = P58 | IOSTANDARD = LVTTL;	
+NET "sender_cs"      LOC = P57 | IOSTANDARD = LVTTL;	
+NET "sender_mosi"    LOC = P67 | IOSTANDARD = LVTTL;	
+NET "sender_miso"    LOC = P66 | IOSTANDARD = LVTTL;	
+NET "sender_sck"     LOC = P74 | IOSTANDARD = LVTTL;	
+
+
+//NET "test<5>"        LOC = P117 | IOSTANDARD = LVTTL;

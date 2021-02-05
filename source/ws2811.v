@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 module ws2811
   #(
-    parameter NUM_PIXELS          = 150,               // The number of LEDS in the chain
+    parameter NUM_PIXELS          = 512,               // The number of LEDS in the chain
     parameter SYSTEM_CLOCK      = 50000000           // The frequency of the input clock signal, in Hz. This value must be correct in order to have correct timing for the WS2811 protocol.
     )
    (
@@ -75,8 +75,8 @@ module ws2811
    reg [CLOCK_DIV_WIDTH-1:0]             clock_div;           // Clock divider for a cycle
    reg [RESET_COUNTER_WIDTH-1:0]         reset_counter;       // Counter for a reset cycle
    
- 	 localparam STATE_RESET    = 3'd0;
-	 localparam STATE_LATCH    = 3'd1;
+   localparam STATE_RESET    = 3'd0;
+   localparam STATE_LATCH    = 3'd1;
    localparam STATE_PRE      = 3'd2;
    localparam STATE_TRANSMIT = 3'd3;
    localparam STATE_POST     = 3'd4;
