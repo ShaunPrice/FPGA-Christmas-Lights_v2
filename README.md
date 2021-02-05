@@ -1,6 +1,5 @@
 # FPGA-Christmas-Lights_v2
-Streams to multiple ws2811 pixel strings from a stream of pixel data in the dollowing format:
-<pre><code>
+Streams to multiple ws2811 pixel strings from a stream of pixel data in the dollowing format:<pre><code>
  byte[0] Universe (0 o 23)
  byte[1] Pixels (0 o 511)
  byte[2] RED index (0,1,2)    // Used to order RGB
@@ -18,7 +17,7 @@ The example code for streaming the pixel code into the FPGA from an ESP32 or Tee
 
 [SD_Reader](https://www.github.com/ShaunPrice/SD_Reader/)
 
-The pinout for the Mojo V3 FPGA is as follows:
+The pinout for the Mojo V3 FPGA is as follows:<pre><code>
 Universe 1 = 35
 Universe 2 = 34
 Universe 3 = 33
@@ -49,5 +48,4 @@ SPI cs = 57
 SPI mosi = 67
 SPI miso = 66
 SPI sck = 74
-
-
+</code></pre>
