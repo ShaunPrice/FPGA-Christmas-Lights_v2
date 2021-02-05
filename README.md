@@ -6,7 +6,7 @@ The project displays up to 24 ws2812b/ws2811 pixels universes with 512 pixels pe
 
 The example code for streaming the pixel code into the FPGA from an ESP32 or Teensy 3.5 reading the Xlights fseq file over SPI is in the following repository:
 
-[SD_Reader](https://www.github.com/ShaunPrice/SD_Reader/) << Requires update for new format.
+[SD_Reader](https://github.com/ShaunPrice/SD_Reader/tree/Teensy) **Note:** Currently requires the Teensy tree for the new format.
 
 ## Format for a Universe
 Streams to multiple ws2811 pixel strings from a stream of pixel data in the dollowing format:<pre><code>
