@@ -18,3 +18,36 @@ The example code for streaming the pixel code into the FPGA from an ESP32 or Tee
 
 [SD_Reader](https://www.github.com/ShaunPrice/SD_Reader/)
 
+The pinout for the Mojo V3 FPGA is as follows:
+Universe 1 = 35
+Universe 2 = 34
+Universe 3 = 33
+Universe 4 = 32
+Universe 5 = 30
+Universe 6 = 29
+Universe 7 = 27
+Universe 8 = 26
+Universe 9 = 24
+Universe 10 = 23
+Universe 11 = 22
+Universe 12 = 21
+Universe 13 = 17
+Universe 14 = 16
+Universe 15 = 15
+Universe 16 = 14
+Universe 17 = 93
+Universe 18 = 92
+Universe 19 = 88
+Universe 20 = 87
+Universe 21 = 85
+Universe 22 = 84
+Universe 23 = 83
+Universe 24 = 82
+
+SPI hs = 58
+SPI cs = 57
+SPI mosi = 67
+SPI miso = 66
+SPI sck = 74
+
+
